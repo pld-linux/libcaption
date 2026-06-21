@@ -12,6 +12,7 @@ Group:		Libraries
 #Source0Download: https://github.com/szatmary/libcaption/releases
 Source0:	https://github.com/szatmary/libcaption/archive/v%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	44e9f042653abf2333ae94f58bdc0a61
+Patch0:		%{name}-libdir.patch
 URL:		https://github.com/szatmary/libcaption
 BuildRequires:	cmake >= 2.8
 %{?with_apidocs:BuildRequires:	doxygen}
@@ -60,6 +61,7 @@ Dokumentacja API biblioteki libcaption.
 
 %prep
 %setup -q
+%patch -P0 -p1
 
 %build
 install -d build
