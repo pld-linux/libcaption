@@ -6,7 +6,7 @@ Summary:	Free open-source CEA608 / CEA708 closed-caption encoder/decoder
 Summary(pl.UTF-8):	Wolnodostępny koder/dekoder napisów CEA608/CEA708 o otwartych źródłach
 Name:		libcaption
 Version:	0.8
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries
 #Source0Download: https://github.com/szatmary/libcaption/releases
